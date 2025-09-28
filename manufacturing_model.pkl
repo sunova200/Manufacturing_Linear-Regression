@@ -1,0 +1,7 @@
+    import pickle
+
+    # Save the model to a file
+    with open('linear_regression_model.pkl', 'wb') as file:
+        pickle.dump(model, file)
+
+    print("Model saved as linear_regression_model.pkl")
